@@ -81,7 +81,7 @@ function getFollowings($token) {
     $z = 1;
     $following = [];
 
-    while ($z <= 50) {
+    while ($z <= 100) {
         $list = json_decode(
             getUsers($token, "following", $z),
             true
